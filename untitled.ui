@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="bkur">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blur</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sepia">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sepia</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="gray">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>gray scale</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sharpen">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sharpen</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="unsharpen">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>unsharpen</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="smooth">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>smooth</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="media">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>median</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="emboss">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>emboss</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="find_egde">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>find edegs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enhance_edge">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>enhance edges</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="histogram">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>color histogram</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="normalization">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>image normalization</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crop">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>410</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>crop</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>190</y>
+      <width>55</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>821</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1070</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="actionopen"/>
+    <addaction name="actionsave"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+    <addaction name="actioncredits"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen">
+   <property name="text">
+    <string>open..</string>
+   </property>
+  </action>
+  <action name="actionsave">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+  <action name="actioncredits">
+   <property name="text">
+    <string>credits</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ui.qrc"/>
+ </resources>
+ <connections/>
+</ui>
