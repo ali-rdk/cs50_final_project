@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1070</width>
-    <height>577</height>
+    <height>615</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -122,7 +122,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>330</y>
+      <y>370</y>
       <width>211</width>
       <height>28</height>
      </rect>
@@ -135,7 +135,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>370</y>
+      <y>410</y>
       <width>211</width>
       <height>28</height>
      </rect>
@@ -148,7 +148,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>490</y>
+      <y>530</y>
       <width>211</width>
       <height>28</height>
      </rect>
@@ -161,7 +161,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>450</y>
+      <y>490</y>
       <width>211</width>
       <height>28</height>
      </rect>
@@ -174,7 +174,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>410</y>
+      <y>450</y>
       <width>211</width>
       <height>28</height>
      </rect>
@@ -189,7 +189,7 @@
       <x>240</x>
       <y>10</y>
       <width>821</width>
-      <height>501</height>
+      <height>541</height>
      </rect>
     </property>
     <property name="font">
@@ -205,6 +205,19 @@
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="contour">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>contour</string>
     </property>
    </widget>
   </widget>
