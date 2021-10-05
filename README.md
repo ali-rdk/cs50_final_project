@@ -2,7 +2,7 @@
 ### final project for CS50
 
 ###### develpoed by Ali roodaki, Seyyed Mohammad Hossein Tabatabaei Fard and Seyyed Mohammad Sepehr Zekavat
-###### this application is writen by python using pyqt5 for GUI and pillow to imply filters on images
+###### this application is writen by python using pyqt5 & QtDesigner for GUI and pillow to imply filters on images
 ### you can use this link to download .exe version of the project:
 https://mega.nz/file/VwdRyajD#3zHSCk13-iPF6mSLsAkOUw2iBOAiHJTTcTE4_qrI-98
 
