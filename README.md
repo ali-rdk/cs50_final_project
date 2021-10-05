@@ -1,8 +1,8 @@
 # CS50 Image Filter
 ### final project gor CS50
 
-develpoed by Ali roodaki, Seyed Mohammad Hossien Tabatabai Fard and Seyed Mohammad Sepehr Zekavat
-this application is writen python using pyqt5 for GUI and pillow to imply filters on images
+###### develpoed by Ali roodaki, Seyed Mohammad Hossien Tabatabai Fard and Seyed Mohammad Sepehr Zekavat
+###### this application is writen python using pyqt5 for GUI and pillow to imply filters on images
 ### you can this link to download .exe version of the project:
 https://mega.nz/file/VwdRyajD#3zHSCk13-iPF6mSLsAkOUw2iBOAiHJTTcTE4_qrI-98
 
