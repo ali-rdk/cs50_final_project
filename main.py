@@ -84,7 +84,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.gray.setFont(font)
-        #self.gray.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.gray.setFocusPolicy(QtCore.Qt.StrongFocus)
         self.gray.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
@@ -110,7 +109,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.sharpen.setFont(font)
-        #self.sharpen.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.sharpen.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -135,7 +133,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.unsharpen.setFont(font)
-        #self.unsharpen.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.unsharpen.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -160,7 +157,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.smooth.setFont(font)
-        #self.smooth.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.smooth.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -185,7 +181,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.median.setFont(font)
-        #self.median.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.median.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -210,7 +205,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.emboss.setFont(font)
-        #self.emboss.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.emboss.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -237,7 +231,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.contour.setFont(font)
-       # self.contour.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.contour.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -262,7 +255,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.find_egde.setFont(font)
-        #self.find_egde.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.find_egde.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -287,7 +279,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.enhance_edge.setFont(font)
-        #self.enhance_edge.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.enhance_edge.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -313,7 +304,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.normalization.setFont(font)
-        #self.normalization.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.normalization.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -343,7 +333,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.blur.setFont(font)
-        #self.blur.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.blur.setStyleSheet("  background-color: #4CAF50; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -372,7 +361,6 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         font.setStrikeOut(False)
         self.coomingsoon.setFont(font)
-        #self.coomingsoon.setCursor(QtGui.QCursor(QtCore.Qt.ForbiddenCursor))
         self.coomingsoon.setStyleSheet("  background-color: #87C98A; /* Green */\n"
 "  border: none;\n"
 "  color: white;\n"
@@ -551,7 +539,6 @@ class Ui_MainWindow(object):
 
             
 
-        #if mode == "sepia":
         #passing the image from pillow to pyqt using imageqt 
         temp = ImageQt(result)
         pixmap = QtGui.QPixmap.fromImage(temp)
@@ -580,14 +567,7 @@ class Ui_MainWindow(object):
         #create image from the array
         bin = Image.fromarray(save_image_array)
         bin.save("result.jpg")
-            #save_path = save_path[::-1]
-            
-            #for i in range(len(save_path)):
-            #   if save_path[i] != 92:
-            #        save_file_name = save_path[0:i-4]
-            #   elif save_path[i] == 92:
-            #        break
-            #bin.save(save_file_name, format="png")
+
 
 
 if __name__ == "__main__":
